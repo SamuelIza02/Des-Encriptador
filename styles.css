@@ -1,0 +1,23 @@
+*{
+    background-color: #F3F5FC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.logo{
+    padding: 10px;
+}
+
+main{
+    display: flex;
+}
+
+.botones{
+    display: flex;
+
+}
