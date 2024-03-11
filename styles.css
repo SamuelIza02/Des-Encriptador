@@ -1,16 +1,26 @@
 *{
-    background: #f4f4fc;
+    background: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
 }
+header{
+    background: #f4f4fc;
+}
+body{
+    background: #f4f4fc;
+}
+.fin{
+    background: #f4f4fc;
+}
 .logo{
     display: flex;
     margin-top: 15px;
     margin-left: 15px;
     width: 120px;
+    background: #f4f4fc;
 }
 main{
     display: flex;
@@ -19,6 +29,7 @@ main{
     margin: 0 10%;
     padding-right: 20px;
     padding-left: 20px;
+    background: #f4f4fc;
 }
 .programa{
     background: #f4f4fc;
@@ -95,6 +106,7 @@ main{
 }
 
 .solucion{
+    display: block;
     min-width: 400px;
     min-height: 750px;
     max-width: 400px;
@@ -116,7 +128,7 @@ main{
     top: 180px;
     box-sizing: border-box;
     padding-top: 40%;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     color: #FFFFFF;
 }
 .previo h3{
@@ -146,6 +158,18 @@ main{
     /*border: 2px solid black;*/
     overflow: auto;
 }
+.Resultado{
+    display: grid;
+    margin: 5% auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 336px;
+    top: 72px;
+    left: 1032px;
+    color: #495057;
+
+
+}
 .copiar{
     background: #FFFFFF;
 }
@@ -163,6 +187,7 @@ main{
     background: #FFFFFF;
     border: 1px solid #0A3871;
     cursor: pointer;
+    position: relative;
 }
 
 .ocultar{
