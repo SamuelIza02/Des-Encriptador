@@ -1,5 +1,7 @@
 *{
-    background: #FFFFFF;
+    margin: 0; /*Obligatorio*/
+    padding: 0; /*Obligatorio*/
+    box-sizing: border-box;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -167,8 +169,7 @@ main{
     top: 72px;
     left: 1032px;
     color: #495057;
-
-
+    font-size: 20px;
 }
 .copiar{
     background: #FFFFFF;
